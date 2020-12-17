@@ -9,6 +9,7 @@
 // }
 
 // clang++ 并不支持这种写法。。。。。
+// gcc 支持
 template<typename T> 
 concept Arithmetic = std::is_arithmetic<T>::value; 
 
