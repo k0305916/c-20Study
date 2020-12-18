@@ -1,5 +1,7 @@
 https://www.modernescpp.com/index.php/c-20-the-ranges-library
 
+https://www.modernescpp.com/index.php/c-20-pythonic-with-the-ranges-library
+
 
 # Views
 **Views can be combined and are lazy.**
