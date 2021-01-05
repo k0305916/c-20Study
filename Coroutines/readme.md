@@ -36,3 +36,24 @@ Condition variables have many inherent risks such as spurious wakeup and lost wa
 ### Lost Wakeup and Spurious Wakeup
 * Lost wakeup: The sender sends its notification before the receiver is the wait state. The consequence is that the notification is lost. 
 * Spurious wakeup: It may happen that the receiver wakes up, although no notification happened.
+
+
+## C++20: Coroutines with cppcoro
+Currently, cppcoro is based on the coroutines TS frameworks and can be used on Windows (Visual Studio 2017) or Linux (Clang 5.0/6.0 and libc++).
+-std=c++17: support for C++17
+-fcoroutines-ts: support for C++ coroutines TS
+-Iinclude: cppcoro headers
+-stdlib=libc++: LLVM implementation of the standard library
+libcppcoro.a: cppcoro library
+
+
+## C++20: Powerful Coroutines with cppcoro
+
+### single_consumer_event
+### Cancellation
+### async_mutex
+
+## C++20: Thread Pools with cppcoro
+### when_all
+static_thread_pool
+
